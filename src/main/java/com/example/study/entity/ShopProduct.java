@@ -18,9 +18,7 @@ public class ShopProduct {
     private Long id;
 
     private String productName; //재품 이름
-
     private int inventoryCount; //재고 개수
-
     private String productContent; //재품 설명
 
     @ManyToOne(fetch = FetchType.LAZY)

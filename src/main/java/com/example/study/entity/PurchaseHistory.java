@@ -20,9 +20,7 @@ public class PurchaseHistory {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "basket_id")
     private Long id;
-
     private String name;
-
     @CreationTimestamp
     private LocalDateTime buyDate;
 

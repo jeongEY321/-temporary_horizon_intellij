@@ -33,5 +33,4 @@ public class User {
     @OneToOne
     private Basket userBasket = new Basket();
 
-
 }
